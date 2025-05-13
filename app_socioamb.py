@@ -23,7 +23,7 @@ st.markdown(
 st.subheader("Mapa Interativo")
 
 # Caminho para o GeoPackage
-gpkg_file = "C:\\Users\\ruiz\\Documents\\geo_bases_publicas\\geopackage\\geodados_municipios.gpkg"
+gpkg_file = "./geodados_municipios.gpkg"
 
 # Leitura dos dados do INCRA
 incra = ler_geodataframe(gpkg_file, 'incra')
